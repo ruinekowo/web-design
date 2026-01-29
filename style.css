@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#title {
+    color: blue;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.hyperlink,
+.hyperlink:visited {
+    color: teal;
+    text-decoration: none;
+}
+
+.hyperlink:hover {
+    color: magenta;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:not(:active):hover {
+    color: white;
+    background-color: red;
+}
